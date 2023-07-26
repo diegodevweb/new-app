@@ -19,4 +19,4 @@ yarn-error.log
 /.vscode
 /.phpstorm
 /.docker
-/.github
+/setup-docker-laravel/.github
