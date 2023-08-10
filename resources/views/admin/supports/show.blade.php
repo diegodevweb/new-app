@@ -6,3 +6,9 @@
          <li>Descricao: {{ $support->content }}</li>
      </ul>
  </div>
+
+<form action="{{ route('supports.delete', $support->id) }}" method="post">
+    @csrf
+    @method('delete')
+    <button type="submit">Confirmar deletar</button>
+</form>
