@@ -12,7 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex justify-center items-start h-screen mt-10">
+<body class="flex justify-center items-start h-screen mt-10 bg-gray-200">
 
 
     <div class="flex flex-col justify-center items-center w-full max-w-5xl rounded-lg shadow-md p-6 bg-white">

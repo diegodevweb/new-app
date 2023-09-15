@@ -13,7 +13,7 @@
 </head>
 
 <body class="flex justify-center items-center h-screen bg-gray-200">
-<div class="w-full max-w-6xl rounded-lg shadow-md p-6 h-screen bg-white">
+<div class="w-full max-w-6xl rounded-lg shadow-md p-6 h-screen bg-white text-md-2">
     <h1 class="text-center text-4xl mb-4">Listagem de Suportes</h1>
     <a href="{{ route('supports.create') }}" class="block text-center rounded-full p-2 my-2 bg-blue-500 text-white">Criar nova dúvida</a>
     <table class="w-full border-collapse rounded-lg overflow-hidden table-auto max-10">
