@@ -7,16 +7,11 @@ App simulador de tickets de suporte, onde ira listar todos os tickets e seus res
 	- Concluido
 
 <div>
-    <img src="/public/assets/img-sm.png"/>
-    
-    
+    <img src="/public/assets/img-sm.png" width="230" height="230"/>
+    <img src="/public/assets/img-sm2.png" width="230" height="230"/>
+    <img src="/public/assets/img-sm3.png" width="230" height="230"/>
 </div>
-<div>
-    <img src="/public/assets/img-sm2.png"/>
-</div>
-<div>
-    <img src="/public/assets/img-sm3.png"/>
-</div>
+
 	
 
 🚧 Projeto em construção 🚧 
