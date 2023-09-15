@@ -5,6 +5,13 @@ App simulador de tickets de suporte, onde ira listar todos os tickets e seus res
 	- Ativo
 	- Pendente 
 	- Concluido
+
+<div>
+    <img src="/public/assets/img-sm.png"/>
+    <img src="/public/assets/img-sm2.png"/>
+    <img src="/public/assets/img-sm3.png"/>
+</div>
+
 	
 
 🚧 Projeto em construção 🚧 
