@@ -8,10 +8,15 @@ App simulador de tickets de suporte, onde ira listar todos os tickets e seus res
 
 <div>
     <img src="/public/assets/img-sm.png"/>
+    
+    
+</div>
+<div>
     <img src="/public/assets/img-sm2.png"/>
+</div>
+<div>
     <img src="/public/assets/img-sm3.png"/>
 </div>
-
 	
 
 🚧 Projeto em construção 🚧 
