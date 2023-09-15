@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Listagem de Suportes</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -13,10 +13,10 @@
 </head>
 
 <body class="flex justify-center items-center h-screen">
-<div class="w-full max-w-4xl rounded-lg shadow-md p-6">
+<div class="w-full max-w-6xl rounded-lg shadow-md p-6 h-screen">
     <h1 class="text-center text-4xl mb-4">Listagem de Suportes</h1>
     <a href="{{ route('supports.create') }}" class="block text-center rounded-full p-2 my-2 bg-blue-500 text-white">Criar nova dúvida</a>
-    <table class="w-full border-collapse rounded-lg overflow-hidden table-auto">
+    <table class="w-full border-collapse rounded-lg overflow-hidden table-auto max-10">
         <thead>
         <tr class="bg-gray-100">
             <th class="p-4">Id</th>
