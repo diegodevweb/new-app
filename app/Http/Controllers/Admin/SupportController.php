@@ -57,17 +57,18 @@ class SupportController extends Controller
         $data = $request->all();
         $data['status'] = 'Ativo';
 
-        $support = Support::create($data);
+        Support::create($data);
 
         return redirect()->route('supports.index');
     }
 
-    public function delete(string|int $id)
+    public function destroy(string|int $id)
     {
         if(!$support = Support::find($id)) {
             return back();
         }
         $support->delete();
+
         return redirect()->route('supports.index');
     }
 }

@@ -12,8 +12,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="flex justify-center items-center h-screen">
-<div class="w-full max-w-6xl rounded-lg shadow-md p-6 h-screen">
+<body class="flex justify-center items-center h-screen bg-gray-200">
+<div class="w-full max-w-6xl rounded-lg shadow-md p-6 h-screen bg-white">
     <h1 class="text-center text-4xl mb-4">Listagem de Suportes</h1>
     <a href="{{ route('supports.create') }}" class="block text-center rounded-full p-2 my-2 bg-blue-500 text-white">Criar nova dúvida</a>
     <table class="w-full border-collapse rounded-lg overflow-hidden table-auto max-10">
@@ -36,12 +36,15 @@
                 <td class="p-4">
                     <a href="{{ route('supports.show', $support->id) }}" class="ml-2 text-purple-500">Ver</a>
                     <a href="{{ route('supports.edit', $support->id) }}" class="ml-2 text-blue-500">Editar</a>
-                    <a href="{{ route('supports.delete', $support->id) }}" class="ml-2 text-red-500">Deletar</a>
+                    <a href="{{ route('supports.destroy', $support->id) }}" class="ml-2 text-red-500">Deletar</a>
                 </td>
             </tr>
         @endforeach
         </tbody>
     </table>
+    <div class="flex justify-end p-4">
+        {!! $supports->links() !!}
+    </div>
 </div>
 </body>
 </html>
