@@ -13,10 +13,7 @@ App simulador de tickets de suporte, onde ira listar todos os tickets e seus res
 </div>
 
 	
-
-🚧 Projeto em construção 🚧 
-
-Técnicas e Tecnologias utilizadas:
+## Técnicas e Tecnologias utilizadas:
 
 * Docker
 * Php 8.1
